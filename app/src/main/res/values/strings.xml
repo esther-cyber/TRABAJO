@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TRABAJO</string>
+    <string name="intro1">Regístrate en AUDITEST</string>
+    <string name="nombre">Introduzca su nombre</string>
+    <string name="apellidos">Introduzca sus apellidos</string>
+    <string name="edad">Introduzca su edad</string>
+    <string name="boton1">Comenzar el AUDITEST</string>
+</resources>

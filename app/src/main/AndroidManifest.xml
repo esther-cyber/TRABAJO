@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TRABAJO">
         <activity
+            android:name=".PantallaFrecuencias"
+            android:exported="false" />
+        <activity
             android:name=".Pantallazo"
             android:exported="true">
             <intent-filter>

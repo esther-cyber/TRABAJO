@@ -9,4 +9,5 @@
     <string name="boton2">Frecuencias altas</string>
     <string name="boton3">Frecuencias bajas</string>
     <string name="intro3">Altas frecuencias</string>
+    <string name="intro4">Bajas frecuencias</string>
 </resources>

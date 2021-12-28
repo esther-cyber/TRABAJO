@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TRABAJO">
         <activity
+            android:name=".Pantalla_Bajas"
+            android:exported="false" />
+        <activity
             android:name=".Pantalla_Altas"
             android:exported="false" />
         <activity

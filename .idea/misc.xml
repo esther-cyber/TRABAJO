@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_pantalla_altas.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pantalla_bajas.xml" value="0.1272644927536232" />
         <entry key="app/src/main/res/layout/activity_pantalla_frecuencias.xml" value="0.22" />
         <entry key="app/src/main/res/layout/pantallazo_inicial.xml" value="0.12917933130699089" />
       </map>

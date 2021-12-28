@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#b2ebf2"
+    android:background="#80deea"
     tools:context=".PantallaFrecuencias">
 
     <TextView
@@ -16,7 +16,9 @@
         android:textSize="20sp"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="50dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/intro2"
+        android:onClick="altas"/>
 
     <TableLayout
         android:layout_width="wrap_content"

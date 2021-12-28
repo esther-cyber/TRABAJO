@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#b2ebf2">
+    android:background="#80deea">
 
     <TextView
         android:id="@+id/text1"
@@ -15,7 +15,8 @@
         android:textSize="30sp"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/intro1"/>
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -27,11 +28,12 @@
                 android:text="@string/nombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="80dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="100dp"
                 android:inputType="text"
-                android:textStyle="italic"/>
+                android:textStyle="italic"
+                android:textColor="@color/nombre"/>
         </TableRow>
         <TableRow>
             <EditText
@@ -43,7 +45,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="100dp"
                 android:inputType="text"
-                android:textStyle="italic"/>
+                android:textStyle="italic"
+                android:textColor="@color/apellidos"/>
         </TableRow>
         <TableRow>
             <EditText
@@ -55,16 +58,17 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="100dp"
                 android:inputType="number"
-                android:textStyle="italic"/>
+                android:textStyle="italic"
+                android:textColor="@color/edad"/>
         </TableRow>
 
         <TableRow>
 
             <Button
                 android:id="@+id/boton1"
-                android:layout_marginLeft="200dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="80dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="70dp"
                 android:onClick="test"
                 android:text="@string/boton1" />
         </TableRow>
